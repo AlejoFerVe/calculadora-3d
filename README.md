@@ -17,16 +17,6 @@ A comprehensive desktop application for calculating 3D printing costs, times, an
   - Longitud del filamento (metros)
   - Volumen (cm³)
 
-- **Estimación de Tiempo**: Estima el tiempo de impresión basado en:
-  - Altura de capa
-  - Altura del modelo
-  - Velocidad de impresión
-  - Perímetro y área de relleno
-
-- **Escalado de Modelos**: Calcula cómo el escalado afecta:
-  - Dimensiones finales
-  - Peso del material (escala cúbica)
-  - Diferencia de material necesario
 
 ## Requisitos / Requirements
 
@@ -56,9 +46,7 @@ python main.py
 
 2. **Material**: Convierte entre diferentes medidas de filamento (peso, longitud, volumen).
 
-3. **Tiempo de Impresión**: Estima cuánto tardará una impresión basándose en parámetros del modelo.
 
-4. **Escalado de Modelo**: Calcula cómo cambiar el tamaño afecta el peso del material (relación cúbica).
 
 ## Estructura del Proyecto / Project Structure
 
@@ -77,8 +65,6 @@ Calculadora 3D/
 - **Consumo de impresora**: 150W
 - **Costo electricidad**: $0.15 por kWh
 - **Margen de ganancia**: 30%
-- **Altura de capa**: 0.2 mm
-- **Velocidad de impresión**: 50 mm/s
 
 ## Materiales Comunes / Common Materials
 
